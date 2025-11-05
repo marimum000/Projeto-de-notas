@@ -71,7 +71,6 @@ button:hover {
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
-  background-color: #f9f9f9;
   min-height: 200px;
 }
 
@@ -80,6 +79,9 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #b04bcf85;
+  border-radius: 8px;
+
 }
 
 .remove-btn {

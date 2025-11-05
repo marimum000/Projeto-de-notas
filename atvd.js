@@ -18,6 +18,10 @@ function addNote() {
     <button class="remove-btn" onclick="removerNote(this)">✖</button> `;
     input.value = '';
 }
+  if(escrever == " "){
+    alert("Escreva uma nota")
+    return
+  }
 
 function removerNote(btn) {
   btn.parentElement.remove();
