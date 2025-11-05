@@ -1,6 +1,3 @@
-let colorCycle = ['blue', 'green', 'purple'];
-let colorIndex = 0; /*esses códigos eu não conheço, tava na net */
-
 function addNote() {
   const input = document.getElementById('escrever');
   const urgencia = document.getElementById('urgencia').value;
@@ -10,13 +7,9 @@ function addNote() {
   const note = document.createElement('div');
   note.classList.add('note');
 
-  if (urgencia === 'urgente') {
-    note.classList.add('azul');
+  if (urgencia == 'urgente') {
     document.getElementById('urgentes').appendChild(note);
   } else {
-    note.classList.add('roxo');
-    note.classList.add(colorCycle[colorIndex]);
-    colorIndex = (colorIndex + 1) % colorCycle.length;
     document.getElementById('naoUrgentes').appendChild(note);
   }
 

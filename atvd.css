@@ -15,23 +15,22 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   background-color: #f0f4f8;
   margin: 0;
   padding: 20px;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 600px;
   margin: auto;
   background: rgb(238, 184, 184);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 textarea {
-  width: 100%;
+  width: 97%;
   height: 80px;
   padding: 10px;
   font-size: 16px;
@@ -74,7 +73,7 @@ button:hover {
   padding: 10px;
   border-radius: 8px;
   background-color: #f9f9f9;
-  height: 400px;
+  height: 200px;
 }
 
 .note {
@@ -87,16 +86,8 @@ button:hover {
   align-items: center;
 }
 
-.note.azul { background-color: #0077cc; }
-.note.verde { background-color: #119b56; }
-.note.roxo { background-color: #450e61; }
-
 .remove-btn {
   background: transparent;
-  border: none;
-  color: inherit;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 select {
